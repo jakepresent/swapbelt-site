@@ -1069,6 +1069,10 @@ h3 {
         max-width: 300px;
     }
     
+    .hero-scroll-indicator {
+        display: none;
+    }
+    
     .features-grid {
         grid-template-columns: 1fr;
     }
