@@ -14,15 +14,18 @@ The site keeps the signup form native, but the email submission should go throug
 
 Do not commit API keys, publication IDs, copied secret-file contents, or key-like prefixes.
 
-Before deploying, get or create a valid beehiiv v2 API key from beehiiv:
+Before deploying, confirm both beehiiv values from beehiiv:
 
 ```text
-Settings -> Workspace Settings -> API -> API Keys -> Create New API Key
+Settings -> Workspace Settings -> API
 ```
 
-Also copy the Publication ID from the same API page.
+Required values:
 
-During setup, keep those values only in Cloudflare environment variables/secrets and in local private notes outside this repo.
+1. A valid beehiiv API key from the API Keys section. This is the Bearer token Cloudflare uses to call beehiiv.
+2. The SwapBelt Publication ID from the Publication ID section.
+
+The Publication ID is used in the URL path and is not the same thing as the Bearer API key. During setup, keep both values only in Cloudflare environment variables/secrets and in local private notes outside this repo.
 
 ## Cloudflare Pages setup
 
