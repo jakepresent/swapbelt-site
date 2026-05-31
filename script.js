@@ -4,7 +4,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     initMobileMenu();
-    initWaitlistForm();
+    initEarlyAccessForm();
 });
 
 function initMobileMenu() {
@@ -18,9 +18,9 @@ function initMobileMenu() {
             <li><a href="#problem">Why</a></li>
             <li><a href="#how-it-works">How it works</a></li>
             <li><a href="#development">Progress</a></li>
-            <li><a href="#waitlist">Waitlist</a></li>
+            <li><a href="#early-access">Early access</a></li>
         </ul>
-        <a href="#waitlist" class="btn btn-primary">Join Waitlist</a>
+        <a href="#early-access" class="btn btn-primary">Join Early Access</a>
     `;
     document.body.appendChild(mobileMenu);
 
@@ -41,8 +41,8 @@ function initMobileMenu() {
     });
 }
 
-function initWaitlistForm() {
-    const form = document.querySelector('.waitlist-form');
+function initEarlyAccessForm() {
+    const form = document.querySelector('.early-access-form');
     if (!form) return;
 
     const emailInput = form.querySelector('input[type="email"]');
@@ -68,7 +68,7 @@ function initWaitlistForm() {
         const endpoint = window.SWAPBELT_SUBSCRIBE_ENDPOINT;
 
         if (!endpoint) {
-            setFormMessage(message, 'Waitlist connection is coming soon. For now, we have the site ready for beehiiv.', 'success');
+            setFormMessage(message, 'Early access signup is coming soon. For now, the site is ready for beehiiv.', 'success');
             return;
         }
 
@@ -92,12 +92,12 @@ function initWaitlistForm() {
             }
 
             emailInput.value = '';
-            setFormMessage(message, "You're on the list. We'll send the important updates.", 'success');
+            setFormMessage(message, "You're on the early access list. Check your email to confirm.", 'success');
         } catch (error) {
             setFormMessage(message, 'Something went wrong. Try again in a minute.', 'error');
         } finally {
             button.disabled = false;
-            button.textContent = 'Join Waitlist';
+            button.textContent = 'Join Early Access';
         }
     });
 }
