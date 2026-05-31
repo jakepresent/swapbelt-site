@@ -673,4 +673,34 @@ h3 {
     .style-image-panel img {
         aspect-ratio: 1.75 / 1;
     }
+
+.how-heading {
+    max-width: 860px;
+    margin-bottom: 34px;
+    text-align: center;
+}
+
+.how-works-panel {
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: #fbfaf8;
+    box-shadow: var(--shadow);
+}
+
+.how-works-panel img {
+    width: 100%;
+    aspect-ratio: 1.8 / 1;
+    object-fit: contain;
+}
+
+@media (max-width: 700px) {
+    .how-heading {
+        text-align: left;
+    }
+
+    .how-works-panel img {
+        aspect-ratio: 1 / 1.05;
+        object-fit: contain;
+    }
 }
