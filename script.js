@@ -25,6 +25,7 @@ function initMobileMenu() {
             <ul class="mobile-nav-links">
                 <li><a href="#features">Features</a></li>
                 <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#product-preview">Preview</a></li>
                 <li><a href="#launch">Launch Plan</a></li>
             </ul>
             <a href="#waitlist" class="btn btn-primary btn-full mobile-shop-btn">Join Waitlist</a>
@@ -212,7 +213,7 @@ function initScrollAnimations() {
         });
     }, observerOptions);
 
-    document.querySelectorAll('.feature-card, .launch-card').forEach(el => {
+    document.querySelectorAll('.feature-card, .launch-card, .media-card').forEach(el => {
         el.style.animationPlayState = 'paused';
         observer.observe(el);
     });
