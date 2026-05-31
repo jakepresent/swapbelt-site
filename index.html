@@ -3,410 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SwapBelt | The Running Belt Reimagined</title>
+    <title>SwapBelt | Fresh Belt. Same Waterproof Core.</title>
+    <meta name="description" content="SwapBelt is a modular running belt system with washable sweat-wicking sleeves and a removable waterproof TPU pouch. Join the waitlist for launch updates.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="logo">SWAPBELT</a>
-            <ul class="nav-links">
-                <li><a href="#features">Features</a></li>
-                <li><a href="#how-it-works">How It Works</a></li>
-                <li><a href="#shop">Shop</a></li>
-            </ul>
-            <a href="#shop" class="nav-cta">Shop Now</a>
-            <button class="mobile-menu-btn" aria-label="Toggle menu">
+    <header class="site-header">
+        <nav class="nav" aria-label="Primary navigation">
+            <a href="#top" class="logo">SwapBelt</a>
+            <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
-        </div>
-    </nav>
+            <div class="nav-menu" data-nav-menu>
+                <a href="#why">Why</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#development">Development</a>
+                <a href="#styles">Styles</a>
+                <a href="#waitlist" class="nav-cta">Join Waitlist</a>
+            </div>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <p class="hero-eyebrow">Introducing</p>
-                <h1 class="hero-title">The Running Belt,<br><span class="highlight">Reimagined.</span></h1>
-                <p class="hero-description">A revolutionary two-layer system featuring washable, interchangeable outer shells and a sweat & waterproof inner pouch. Your items stay dry. Your style stays fresh. Always.</p>
-                <div class="hero-ctas">
-                    <a href="#shop" class="btn btn-primary">Shop Now</a>
-                    <a href="#how-it-works" class="btn btn-secondary">Learn More</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="product-placeholder">
-                    <div class="placeholder-inner">
-                        <span class="placeholder-icon">🏃</span>
-                        <p>Product Image</p>
+    <main id="top">
+        <section class="hero section-large">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Modular running belt · Launching soon</p>
+                    <h1>Running Belts Get Filthy.</h1>
+                    <p class="hero-subtitle">SwapBelt separates the sweat-wicking belt from the waterproof storage core, making it easier to stay clean, organized, and ready for your next run.</p>
+                    <div class="hero-actions">
+                        <a href="#waitlist" class="button button-primary">Join the Waitlist</a>
+                        <a href="#how-it-works" class="button button-secondary">See How It Works</a>
+                    </div>
+                    <div class="hero-proof" aria-label="SwapBelt product highlights">
+                        <span>Washable sleeve</span>
+                        <span>Waterproof TPU core</span>
+                        <span>Snap-secured pouch</span>
                     </div>
                 </div>
+                <div class="hero-media" aria-label="SwapBelt sleeve variation preview">
+                    <figure class="image-panel image-panel-hero">
+                        <img src="SwapBelt Render (3).jpg" alt="SwapBelt sleeve variations in black, olive, navy, camo, and Digital Storm">
+                        <figcaption>One waterproof core. Multiple sleeve styles.</figcaption>
+                    </figure>
+                </div>
             </div>
-        </div>
-        <div class="hero-scroll-indicator">
-            <span>Scroll to explore</span>
-            <div class="scroll-arrow"></div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">Why SwapBelt?</p>
-                <h2 class="section-title">Two Layers. Zero Compromises.</h2>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
-                        </svg>
-                    </div>
-                    <h3>Sweat & Waterproof Pouch</h3>
-                    <p>Your phone doesn't belong in a sweat bath. Our sealed inner pouch keeps your essentials bone-dry, whether it's rain, sweat, or unexpected sprinklers.</p>
+        <section id="why" class="section why-section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Why SwapBelt?</p>
+                    <h2>Built around what happens after every run.</h2>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 0 0 6.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 0 0 6.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
-                        </svg>
-                    </div>
-                    <h3>Machine-Washable Shells</h3>
-                    <p>Running belts get funky fast. That's why our outer shells toss right in with your running gear, so you always have a fresh one ready, no matter how many times a week you run.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M7 21a4 4 0 0 1-4-4V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v12a4 4 0 0 1-4 4zm0 0h12a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 0 1 2.828 0l2.829 2.829a2 2 0 0 1 0 2.828l-8.486 8.485M7 17h.01"/>
-                        </svg>
-                    </div>
-                    <h3>Swap Your Style</h3>
-                    <p>Why settle for one color? Multiple shells mean you can match your belt to your outfit, your mood, or your race day kit. Express yourself on every run.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="3"/>
-                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
-                        </svg>
-                    </div>
-                    <h3>Bounce-Free Design</h3>
-                    <p>Zero bounce. Zero shift. Ergonomically designed to move with your body, keeping items secure and hands-free mile after mile.</p>
+                <div class="card-grid three-up">
+                    <article class="benefit-card">
+                        <span class="card-number">01</span>
+                        <h3>Sweat Happens</h3>
+                        <p>Traditional running belts absorb sweat and odors, then ask you to reuse the same storage layer again and again.</p>
+                    </article>
+                    <article class="benefit-card">
+                        <span class="card-number">02</span>
+                        <h3>Remove the Core</h3>
+                        <p>The waterproof pouch slides out in seconds, keeping your phone, keys, and nutrition organized without removing the belt.</p>
+                    </article>
+                    <article class="benefit-card">
+                        <span class="card-number">03</span>
+                        <h3>Wash and Reuse</h3>
+                        <p>Wipe the pouch clean, throw the sleeve in the laundry, and keep the same waterproof core ready for tomorrow.</p>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- How It Works Section -->
-    <section id="how-it-works" class="how-it-works">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">The Innovation</p>
-                <h2 class="section-title">How It Works</h2>
+        <section id="how-it-works" class="section process-section">
+            <div class="container process-grid">
+                <div class="process-copy">
+                    <p class="eyebrow">How it works</p>
+                    <h2>Fresh belt. Same waterproof core.</h2>
+                    <p>SwapBelt is designed as a two-part system: a removable TPU pouch that carries your essentials and a washable sleeve that handles sweat.</p>
+                    <ol class="process-list">
+                        <li><span>Insert core</span>The pouch slides into the top-entry sleeve opening.</li>
+                        <li><span>Snap secure</span>Snaps hold the core in position while the sleeve stretches with you.</li>
+                        <li><span>Run, remove, clean</span>After the run, remove the pouch, wipe it down, and wash the sleeve.</li>
+                    </ol>
+                </div>
+                <figure class="image-panel process-panel">
+                    <img src="D1CD0490-A773-4159-8363-ADE0413B137F.PNG" alt="SwapBelt product render showing the pouch, sleeve, snaps, and insertion process">
+                    <figcaption>Current product direction: pouch, sleeve, snap system, and insertion flow.</figcaption>
+                </figure>
             </div>
-            <div class="steps">
-                <div class="step">
-                    <div class="step-number">01</div>
-                    <div class="step-content">
-                        <h3>The Waterproof Pouch</h3>
-                        <p>Start with our sweat & waterproof inner pouch. Zippered storage for your phone, keys, cards, and cash, all completely protected from moisture and sweat.</p>
-                    </div>
-                    <div class="step-image">
-                        <div class="product-placeholder small">
-                            <div class="placeholder-inner">
-                                <span class="placeholder-icon">💧</span>
-                                <p>Inner Pouch</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="step reverse">
-                    <div class="step-number">02</div>
-                    <div class="step-content">
-                        <h3>Choose Your Shell</h3>
-                        <p>Select from our range of sweat-wicking outer shells. From sleek neutrals to bold colors, find the style that matches your outfit.</p>
-                    </div>
-                    <div class="step-image">
-                        <div class="product-placeholder small">
-                            <div class="placeholder-inner">
-                                <span class="placeholder-icon">🎨</span>
-                                <p>Outer Shells</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="step-number">03</div>
-                    <div class="step-content">
-                        <h3>Slip, Snap & Run</h3>
-                        <p>Slip the pouch into the shell and snap into place. Your morning run just got a lot more convenient.</p>
-                    </div>
-                    <div class="step-image">
-                        <div class="product-placeholder small">
-                            <div class="placeholder-inner">
-                                <span class="placeholder-icon">✨</span>
-                                <p>Complete Belt</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Product Showcase -->
-    <section class="showcase">
-        <div class="showcase-content">
-            <div class="showcase-text">
-                <p class="section-eyebrow">Premium Materials</p>
-                <h2>Crafted for Athletes.<br>Designed for Life.</h2>
-                <p class="showcase-description">Every SwapBelt is built with performance-grade materials. The waterproof inner pouch features sealed seams and a water-resistant zipper, while the outer shells are crafted from breathable, quick-dry fabrics that feel as good as they look.</p>
-                <ul class="showcase-list">
-                    <li>
-                        <span class="check-icon">✓</span>
-                        Reflective accents for low-light visibility
-                    </li>
-                    <li>
-                        <span class="check-icon">✓</span>
-                        Adjustable elastic waistband fits 26" to 42"
-                    </li>
-                    <li>
-                        <span class="check-icon">✓</span>
-                        Fits phones up to 6.7" (iPhone 15 Pro Max)
-                    </li>
-                    <li>
-                        <span class="check-icon">✓</span>
-                        Lightweight: just 3.2 oz total
-                    </li>
-                </ul>
-            </div>
-            <div class="showcase-image">
-                <div class="product-placeholder large">
-                    <div class="placeholder-inner">
-                        <span class="placeholder-icon">📸</span>
-                        <p>Lifestyle Image</p>
+        <section id="development" class="section development-section">
+            <div class="container development-grid">
+                <div class="development-media-grid">
+                    <figure class="image-panel prototype-panel">
+                        <img src="IMG_4130.jpg" alt="Current SwapBelt prototype with black pouch above blue sleeve">
+                        <figcaption>Current prototype: black pouch above blue sleeve.</figcaption>
+                    </figure>
+                    <figure class="image-panel render-panel">
+                        <img src="E19D707E-A014-4F08-ADD5-20C1319BFE09.PNG" alt="SwapBelt render showing inserted pouch and sleeve structure">
+                        <figcaption>Refining the final pouch construction and inserted fit.</figcaption>
+                    </figure>
+                </div>
+                <div class="development-copy">
+                    <p class="eyebrow">Current product development</p>
+                    <h2>Preparing the pouch for production.</h2>
+                    <p>Recent prototype testing validated the sleeve shape, top-entry insertion, snap attachment, elasticity, and pouch security. The main development focus now is a more structured waterproof TPU pouch.</p>
+                    <div class="status-list" aria-label="SwapBelt development status">
+                        <div class="status-item complete"><span>✓</span>Sleeve design validated</div>
+                        <div class="status-item complete"><span>✓</span>Snap attachment validated</div>
+                        <div class="status-item in-progress"><span>↻</span>RF welded pouch development</div>
+                        <div class="status-item in-progress"><span>↻</span>Final production prototype</div>
                     </div>
+                    <p class="development-note">Target pouch direction: RF welded TPU, semi-rigid structure, waterproof zipper, and no foam or plastic inserts.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Shop Section -->
-    <section id="shop" class="shop">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">Shop</p>
-                <h2 class="section-title">Find Your Perfect Setup</h2>
+        <section id="styles" class="section styles-section">
+            <div class="container styles-grid">
+                <div class="styles-copy">
+                    <p class="eyebrow">Future sleeve styles</p>
+                    <h2>One Core. Multiple Styles.</h2>
+                    <p>SwapBelt is designed around interchangeable sleeves so runners can change colors and styles without buying an entirely new belt.</p>
+                    <div class="style-tags" aria-label="Example sleeve styles">
+                        <span>Black</span>
+                        <span>Olive</span>
+                        <span>Navy</span>
+                        <span>Camo</span>
+                        <span>Patterned drops</span>
+                    </div>
+                </div>
+                <figure class="image-panel styles-panel">
+                    <img src="SwapBelt Render (3).jpg" alt="SwapBelt interchangeable sleeve styles including black, olive, navy, camo, and patterned designs">
+                    <figcaption>Future ecosystem: a single waterproof core paired with interchangeable washable sleeves.</figcaption>
+                </figure>
             </div>
-            <div class="products-grid">
-                <!-- SwapBelt Classic -->
-                <div class="product-card featured">
-                    <div class="product-badge">Daily Driver</div>
-                    <div class="product-image">
-                        <div class="product-placeholder">
-                            <div class="placeholder-inner">
-                                <span class="placeholder-icon">🏃</span>
-                                <p>SwapBelt Classic</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <h3>SwapBelt Classic</h3>
-                        <p class="product-description">Your daily driver. Minimal, sleek, and fits just the essentials: phone, keys, cards, and cash. Perfect for everyday runs.</p>
-                        <div class="product-price">
-                            <span class="price">$69</span>
-                            <span class="price-note">Includes 1 shell</span>
-                        </div>
-                        <div class="color-options">
-                            <button class="color-dot" style="background: #1a1a1a;" title="Midnight Black"></button>
-                            <button class="color-dot" style="background: #4a5568;" title="Storm Gray"></button>
-                            <button class="color-dot" style="background: #2d3748;" title="Deep Navy"></button>
-                            <button class="color-dot" style="background: #276749;" title="Forest Green"></button>
-                        </div>
-                        <button class="btn btn-primary btn-full">Add to Cart</button>
-                    </div>
-                </div>
-                <!-- SwapBelt Elite -->
-                <div class="product-card">
-                    <div class="product-badge">Race Day</div>
-                    <div class="product-image">
-                        <div class="product-placeholder">
-                            <div class="placeholder-inner">
-                                <span class="placeholder-icon">🏆</span>
-                                <p>SwapBelt Elite</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <h3>SwapBelt Elite</h3>
-                        <p class="product-description">Designed for longer workouts and race day. Additional storage pockets plus an integrated water bottle holder with a TPU liner to protect against leaks.</p>
-                        <div class="product-price">
-                            <span class="price">$89</span>
-                            <span class="price-note">Includes 1 shell</span>
-                        </div>
-                        <div class="color-options">
-                            <button class="color-dot" style="background: #1a1a1a;" title="Midnight Black"></button>
-                            <button class="color-dot" style="background: #4a5568;" title="Storm Gray"></button>
-                            <button class="color-dot" style="background: #2d3748;" title="Deep Navy"></button>
-                        </div>
-                        <button class="btn btn-primary btn-full">Add to Cart</button>
-                    </div>
-                </div>
-                <!-- Extra Shells -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="product-placeholder">
-                            <div class="placeholder-inner">
-                                <span class="placeholder-icon">🎨</span>
-                                <p>Extra Shell</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <h3>Extra Shells</h3>
-                        <p class="product-description">Swap your style with additional washable shells. Toss them in with your running gear. Always have a fresh one ready.</p>
-                        <div class="product-price">
-                            <span class="price">$25</span>
-                            <span class="price-note">each</span>
-                        </div>
-                        <div class="color-options">
-                            <button class="color-dot" style="background: #1a1a1a;" title="Midnight Black"></button>
-                            <button class="color-dot" style="background: #4a5568;" title="Storm Gray"></button>
-                            <button class="color-dot" style="background: #2d3748;" title="Deep Navy"></button>
-                            <button class="color-dot" style="background: #744210;" title="Desert Sand"></button>
-                            <button class="color-dot" style="background: #276749;" title="Forest Green"></button>
-                            <button class="color-dot" style="background: #9f1239;" title="Berry"></button>
-                            <button class="color-dot" style="background: #1e40af;" title="Ocean Blue"></button>
-                            <button class="color-dot" style="background: #f5f5f4;" title="Stone White"></button>
-                        </div>
-                        <button class="btn btn-primary btn-full">Add to Cart</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Testimonials -->
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">Reviews</p>
-                <h2 class="section-title">What Runners Are Saying</h2>
-            </div>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <p class="testimonial-text">"Finally, a running belt that doesn't smell like a gym locker after a week. The washable outer shell is a game-changer."</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">SM</div>
-                        <div class="author-info">
-                            <span class="author-name">Sarah M.</span>
-                            <span class="author-title">Marathon Runner</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <p class="testimonial-text">"Got caught in a downpour during my half marathon. Phone was completely dry. Worth every penny."</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">JT</div>
-                        <div class="author-info">
-                            <span class="author-name">James T.</span>
-                            <span class="author-title">Trail Runner</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <p class="testimonial-text">"I have 4 different shells now. Love matching my belt to my outfit. It's the little things that make you feel fast."</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">AL</div>
-                        <div class="author-info">
-                            <span class="author-name">Amanda L.</span>
-                            <span class="author-title">5K Enthusiast</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Newsletter -->
-    <section class="newsletter">
-        <div class="container">
-            <div class="newsletter-content">
-                <h2>Join the Movement</h2>
-                <p>Get early access to new shell designs, exclusive discounts, and running tips delivered to your inbox.</p>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Enter your email" required>
-                    <button type="submit" class="btn btn-primary">Subscribe</button>
+        <section id="waitlist" class="section waitlist-section">
+            <div class="container waitlist-card">
+                <p class="eyebrow">Join the waitlist</p>
+                <h2>Be First To Know When We Launch</h2>
+                <p>Get product updates, prototype progress, and early access when SwapBelt is ready for its first release.</p>
+                <form class="waitlist-form" aria-label="Join the SwapBelt waitlist">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit" class="button button-primary">Join Waitlist</button>
                 </form>
-                <p class="newsletter-note">No spam, ever. Unsubscribe anytime.</p>
+                <p class="form-note">Launch updates only. No spam.</p>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <a href="#" class="logo">SWAPBELT</a>
-                    <p>The running belt, reimagined. SwapBelt keeps your essentials safe while you swap your style.</p>
-                    <div class="social-links">
-                        <a href="#" aria-label="Instagram">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-                        </a>
-                        <a href="#" aria-label="Twitter">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
-                        </a>
-                        <a href="#" aria-label="Facebook">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="footer-links">
-                    <h4>Shop</h4>
-                    <ul>
-                        <li><a href="#">Starter Kit</a></li>
-                        <li><a href="#">Waterproof Core</a></li>
-                        <li><a href="#">Outer Shells</a></li>
-                        <li><a href="#">Gift Cards</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Support</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Shipping & Returns</a></li>
-                        <li><a href="#">Size Guide</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="#">Our Story</a></li>
-                        <li><a href="#">Sustainability</a></li>
-                        <li><a href="#">Ambassador Program</a></li>
-                        <li><a href="#">Press</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 SwapBelt. All rights reserved.</p>
-                <div class="footer-legal">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                </div>
-            </div>
+        <div class="container footer-inner">
+            <a href="#top" class="logo">SwapBelt</a>
+            <p>Fresh belt. Same waterproof core.</p>
+            <a href="#waitlist">Join Waitlist</a>
         </div>
     </footer>
 
