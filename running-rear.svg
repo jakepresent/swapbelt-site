@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Rear running image</title>
+  <desc id="desc">A black and white rear running scene on a park road.</desc>
+  <defs><linearGradient id="g" y1="0" y2="1"><stop stop-color="#202020"/><stop offset=".52" stop-color="#555"/><stop offset="1" stop-color="#9b9b9b"/></linearGradient></defs>
+  <rect width="900" height="1200" fill="url(#g)"/>
+  <g opacity=".18" stroke="#eee" stroke-width="8"><path d="M250 1200 430 0M650 1200 500 0"/><path d="M-60 880h1020M-60 1010h1020"/></g>
+  <g transform="translate(318 255)" fill="#111">
+    <circle cx="132" cy="74" r="52"/>
+    <path d="M72 140c42-42 122-43 168 0 44 42 58 174 44 292H30C14 310 28 184 72 140z"/>
+    <path d="M42 270-58 380l-46-52L18 198z"/>
+    <path d="M248 200l106 126-48 54-88-112z"/>
+    <rect x="18" y="390" width="274" height="58" rx="29" fill="#eee"/>
+    <path d="M82 440 48 704l-58 166 78 28 74-180 46-278z"/>
+    <path d="M202 440l46 258 92 140 72-38-86-164-44-196z"/>
+  </g>
+</svg>

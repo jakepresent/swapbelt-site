@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+  <title id="title">Interchangeable SwapBelt sleeve styles</title>
+  <desc id="desc">Six SwapBelt sleeve colorways: black, tonal camo, graphite hex, olive, deep navy, and digital storm.</desc>
+  <defs>
+    <pattern id="camo" width="80" height="40" patternUnits="userSpaceOnUse"><rect width="80" height="40" fill="#202328"/><path d="M0 18c18-20 35 18 54-4 9-10 18-11 28-7v34H0z" fill="#3a3e45" opacity=".85"/></pattern>
+    <pattern id="hex" width="46" height="40" patternUnits="userSpaceOnUse"><rect width="46" height="40" fill="#202124"/><path d="M12 2h22l10 18-10 18H12L2 20z" fill="none" stroke="#555" stroke-width="2" opacity=".55"/></pattern>
+    <pattern id="digital" width="52" height="52" patternUnits="userSpaceOnUse"><rect width="52" height="52" fill="#1a1b1e"/><rect x="3" y="5" width="16" height="12" fill="#3b3f47"/><rect x="28" y="14" width="20" height="18" fill="#4b5059"/><rect x="12" y="34" width="14" height="14" fill="#30343a"/></pattern>
+    <filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="8" flood-opacity=".25"/></filter>
+  </defs>
+  <rect width="1400" height="420" fill="#d8d2c8"/>
+  <text x="700" y="44" text-anchor="middle" font-family="Inter,Arial" font-size="22" font-weight="900" letter-spacing="4">INTERCHANGEABLE SLEEVE STYLES</text>
+  <g font-family="Inter,Arial" font-weight="900" font-size="18" text-anchor="middle" filter="url(#s)">
+    <g transform="translate(90 90)"><path d="M0 50h58c40 0 58-45 110-45h160c52 0 72 45 112 45h58v60h-58c-40 0-60 45-112 45H168c-52 0-70-45-110-45H0z" fill="#121212"/><text x="249" y="198" fill="#111">BLACK</text></g>
+    <g transform="translate(452 90)"><path d="M0 50h58c40 0 58-45 110-45h160c52 0 72 45 112 45h58v60h-58c-40 0-60 45-112 45H168c-52 0-70-45-110-45H0z" fill="url(#camo)"/><text x="249" y="198" fill="#111">TONAL CAMO</text></g>
+    <g transform="translate(814 90)"><path d="M0 50h58c40 0 58-45 110-45h160c52 0 72 45 112 45h58v60h-58c-40 0-60 45-112 45H168c-52 0-70-45-110-45H0z" fill="url(#hex)"/><text x="249" y="198" fill="#111">GRAPHITE HEX</text></g>
+    <g transform="translate(90 258)"><path d="M0 50h58c40 0 58-45 110-45h160c52 0 72 45 112 45h58v60h-58c-40 0-60 45-112 45H168c-52 0-70-45-110-45H0z" fill="#4e5c39"/><text x="249" y="148" fill="#111">OLIVE</text></g>
+    <g transform="translate(452 258)"><path d="M0 50h58c40 0 58-45 110-45h160c52 0 72 45 112 45h58v60h-58c-40 0-60 45-112 45H168c-52 0-70-45-110-45H0z" fill="#172232"/><text x="249" y="148" fill="#111">DEEP NAVY</text></g>
+    <g transform="translate(814 258)"><path d="M0 50h58c40 0 58-45 110-45h160c52 0 72 45 112 45h58v60h-58c-40 0-60 45-112 45H168c-52 0-70-45-110-45H0z" fill="url(#digital)"/><text x="249" y="148" fill="#111">DIGITAL STORM</text></g>
+  </g>
+</svg>
