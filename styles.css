@@ -334,11 +334,21 @@ p {
     gap: 58px;
 }
 
-.hero-description {
+.hero-subheader {
     max-width: 640px;
-    margin-top: 26px;
-    font-size: clamp(21px, 2.2vw, 30px);
-    line-height: 1.22;
+    margin-top: 24px;
+    color: rgba(255, 255, 255, 0.92);
+    font-size: clamp(28px, 3.1vw, 44px);
+    font-weight: 650;
+    line-height: 1.08;
+    letter-spacing: -0.045em;
+}
+
+.hero-description {
+    max-width: 620px;
+    margin-top: 18px;
+    font-size: clamp(20px, 2vw, 27px);
+    line-height: 1.24;
     letter-spacing: -0.035em;
 }
 
@@ -786,6 +796,7 @@ p {
         font-size: clamp(48px, 16vw, 70px);
     }
 
+    .hero-subheader,
     .hero-description,
     .section-intro,
     .split-copy p:not(.eyebrow),
