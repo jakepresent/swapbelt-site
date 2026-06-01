@@ -68,7 +68,7 @@ function initEarlyAccessForm() {
         const endpoint = window.SWAPBELT_SUBSCRIBE_ENDPOINT;
 
         if (!endpoint) {
-            setFormMessage(message, 'Early access signup is coming soon. For now, the site is ready for beehiiv.', 'success');
+            setFormMessage(message, 'Early access signup is coming soon.', 'error');
             return;
         }
 
