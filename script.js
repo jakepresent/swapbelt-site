@@ -17,6 +17,7 @@ function initMobileMenu() {
         <ul class="mobile-nav-links">
             <li><a href="#problem">Why</a></li>
             <li><a href="#how-it-works">How it works</a></li>
+            <li><a href="#styles">Styles</a></li>
             <li><a href="#development">Progress</a></li>
             <li><a href="#early-access">Early access</a></li>
         </ul>

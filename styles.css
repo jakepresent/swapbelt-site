@@ -362,18 +362,19 @@ p {
 .hero-visual {
     position: relative;
     border-radius: 28px;
-    background: radial-gradient(circle at 50% 40%, #1a1a1d 0%, #050505 66%);
-    min-height: 520px;
+    background: #f7f7f9;
+    min-height: 430px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 36px;
+    padding: 22px;
     box-shadow: rgba(255, 255, 255, 0.08) 0 0 0 1px inset;
 }
 
 .hero-product-image {
     width: min(100%, 680px);
-    filter: drop-shadow(0 28px 54px rgba(0, 0, 0, 0.55));
+    border-radius: 20px;
+    filter: drop-shadow(0 24px 46px rgba(0, 0, 0, 0.35));
 }
 
 /* ===================================
@@ -504,6 +505,38 @@ p {
     max-height: 620px;
     object-fit: contain;
     border-radius: 18px;
+}
+
+.infographic-panel {
+    margin-top: 44px;
+    padding: 24px;
+    border-radius: 34px;
+    background: var(--color-soft);
+    box-shadow: rgba(0, 0, 0, 0.05) 0 1px 0;
+}
+
+.infographic-panel img {
+    width: 100%;
+    border-radius: 24px;
+}
+
+.process-tagline {
+    margin: 28px auto 0;
+    color: var(--color-ink);
+    font-size: clamp(26px, 3.1vw, 42px);
+    font-weight: 750;
+    line-height: 1.1;
+    letter-spacing: -0.045em;
+    text-align: center;
+}
+
+.styles-image-panel {
+    min-height: auto;
+}
+
+.styles-image-panel img {
+    width: 100%;
+    max-height: none;
 }
 
 .image-stack {
@@ -750,7 +783,12 @@ p {
     }
 
     .hero-visual {
-        min-height: 360px;
+        min-height: auto;
+    }
+
+    .infographic-panel {
+        padding: 14px;
+        border-radius: 24px;
     }
 
     .three-card-grid,
