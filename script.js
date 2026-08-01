@@ -2,10 +2,15 @@
    SWAPBELT PRELAUNCH INTERACTIONS
    =================================== */
 
-document.addEventListener('DOMContentLoaded', () => {
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+        initMobileMenu();
+        initEarlyAccessForm();
+    });
+} else {
     initMobileMenu();
     initEarlyAccessForm();
-});
+}
 
 function initMobileMenu() {
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
