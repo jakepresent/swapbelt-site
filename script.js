@@ -6,10 +6,27 @@ if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
         initMobileMenu();
         initEarlyAccessForm();
+        initHeroGallery();
     });
 } else {
     initMobileMenu();
     initEarlyAccessForm();
+    initHeroGallery();
+}
+
+function initHeroGallery() {
+    const mainImage = document.getElementById('hero-gallery-main');
+    const thumbs = document.querySelectorAll('.hero-thumb');
+    if (!mainImage || !thumbs.length) return;
+
+    thumbs.forEach(thumb => {
+        thumb.addEventListener('click', () => {
+            mainImage.src = thumb.dataset.src;
+            mainImage.alt = thumb.dataset.alt || mainImage.alt;
+            thumbs.forEach(t => t.classList.remove('active'));
+            thumb.classList.add('active');
+        });
+    });
 }
 
 function initMobileMenu() {
